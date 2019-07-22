@@ -1,0 +1,85 @@
+/*
+    colours:
+    primary branding    = #d8b24f
+    header 4            = #434344
+    for grey paragraphs = #878e94
+    font-family         = 'Montserrat', sans-serif
+*/
+
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.64;
+    color: #202020;
+    /* border-top: 10px solid #d8b24f;; */
+}
+
+/* Header */
+header {
+    background-image: url(../img/background-image.png);
+    background-size: cover;
+    background-position: center;
+   
+    color: white;
+}
+h3 {
+    margin: 0;
+    color: #d8b24f;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5% 20%;
+}
+header img {
+    width: 200px;
+    border: 6px solid #d8b24f;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+header a, footer a {
+    color: white;
+    font-size: 24px; 
+    margin: 10px;
+}
+
+
+
+/* Middle Section */
+section {
+    flex-direction: column ;
+}
+section p {
+    color: #878e94
+}
+.box {
+    padding: 40px;
+    margin: 80px 0px;
+    /* margin-top: 80px; */
+    box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
+    text-align: center;
+}
+.job {
+    display: flex;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.job img {
+    margin-right: 30px;
+    align-self: start;
+}
+
+footer {
+    font-size: 20px;
+    justify-content: space-around !important;
+    color: white;
+    background-color: #d8b24f;
+}
+
+
+/* Media Queries */
